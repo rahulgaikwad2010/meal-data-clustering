@@ -37,8 +37,8 @@ In the project, we will be working with a specified dataset of images.  we will 
 
 **Extracting Ground Truth:** 
 
-Derive the max and min value of meal intake amount from the Y column of the Insulin data. Discretize the meal amount in bins of size 20. Consider each row in the meal data matrix that you generated in Assignment 2. According to their meal amount label put them in the respective bins. 
-In total you should have   bins.
+Derive the max and min value of meal intake amount from the Y column of the Insulin data. Discretize the meal amount in bins of size 20. 
+According to their meal amount label put them in the respective bins. In total you should have `n = (max-min)/20`  bins.
 
 **Performing clustering:**
 
