@@ -36,10 +36,12 @@ In the project, we will be working with a specified dataset of images.  we will 
 - Cluster Meal data based on the amount of carbohydrates in each meal
 
 **Extracting Ground Truth:** 
+
 Derive the max and min value of meal intake amount from the Y column of the Insulin data. Discretize the meal amount in bins of size 20. Consider each row in the meal data matrix that you generated in Assignment 2. According to their meal amount label put them in the respective bins. 
 In total you should have   bins.
 
 **Performing clustering:**
+
 Now ignore the mealAmountData. Without using the meal amount data use the features. Use DBSCAN or KMeans. Try these two. 
 
 **Report your accuracy of clustering based on SSE, entropy and purity metrics.**
