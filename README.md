@@ -17,6 +17,7 @@
 ├── Meal Data Clustering
 |  ├── data       - this folder contains training & testing data.
 |  │    ├──  CGMData.csv
+|  │    ├──  Result.csv
 |  |    └──  InsulinData.csv
 |  │
 └────── Meal Data Clustering.ipynb
