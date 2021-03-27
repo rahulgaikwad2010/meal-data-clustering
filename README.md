@@ -1,6 +1,6 @@
 # Meal Data Clustering
 
-In the project, we will be working with a unsupervised machine learning technique called clustering. Aim is to cluster meal data based on the amount of carbohydrates in each meal.
+<br/>
 
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
@@ -14,21 +14,19 @@ In the project, we will be working with a unsupervised machine learning techniqu
 
 ### Project Structure Overview
 ```
-├── Facial Expression Recognition Deep Learning
-|  ├── dataset       - this folder contains training & testing data.
-|  │    ├──  PrivateTest_data_images.npy
-|  |    ├──  PublicTest_data_images.npy
-|  |    ├──  Training_data_images.npy (Omitted Because > 25 MB)
-|  |    └──  Training_data_labels.npy
+├── Meal Data Clustering
+|  ├── data       - this folder contains training & testing data.
+|  │    ├──  CGMData.csv
+|  |    └──  InsulinData.csv
 |  │
-└────── Facial Expression Recognition.ipynb
+└────── Meal Data Clustering.ipynb
 ```
 
 <br/>
 
 ### Introduction
 
-In the project, we will be working with a specified dataset of images.  we will then explore the data and try the statistical learning approaches that we have covered in this course to tackle the task associated with the dataset.  The statistical approaches should cover both conventional machine learning (i.e. not deep learning), from the first half of the unit, and deep learning from the second half.  A goal of the project is to explore the approaches we've leant, or perhaps beyond those, in order to build a high-performing system.
+In the project, we will be working with a unsupervised machine learning technique called clustering. Aim is to cluster meal data based on the amount of carbohydrates in each meal.
 
 ### Project Goal
 
@@ -42,9 +40,13 @@ According to their meal amount label put them in the respective bins. In total y
 
 **Performing clustering:**
 
-Now ignore the mealAmountData. Without using the meal amount data use the features. Use DBSCAN or KMeans. Try these two. 
+Now ignore the mealAmountData. Without using the meal amount data use the features. 
+Use `DBSCAN or KMeans`. Try these two. 
 
-**Report your accuracy of clustering based on SSE, entropy and purity metrics.**
+Report your accuracy of clustering based on:
+- SSE
+- Entropy
+- Purity metrics
 
 <br/>
 
