@@ -6,7 +6,6 @@
 -  [Project Structure Overview](#project-structure-overview)
 -  [Introduction](#introduction)
 -  [Project Goal](#project-goal)
--  [Data Set](#data-set)
 -  [Version](#version)
 -  [Author](#author)
 
