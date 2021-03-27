@@ -32,32 +32,17 @@ In the project, we will be working with a specified dataset of images.  we will 
 
 ### Project Goal
 
-The goal of this project is to predict the expression on the face.  The expression labels are standard ones used in psychology research: **angry, disgusted, fearful, happy, sad, surprised, neutral.**
+- Extract features from Meal data
+- Cluster Meal data based on the amount of carbohydrates in each meal
 
+**Extracting Ground Truth:** 
+Derive the max and min value of meal intake amount from the Y column of the Insulin data. Discretize the meal amount in bins of size 20. Consider each row in the meal data matrix that you generated in Assignment 2. According to their meal amount label put them in the respective bins. 
+In total you should have   bins.
 
-We will using the ML/DL models in the analysis which are stated below as:
+**Performing clustering:**
+Now ignore the mealAmountData. Without using the meal amount data use the features. Use DBSCAN or KMeans. Try these two. 
 
-#### Conventional Models
-
-1. Support Vector Machines (SVM)
-2. Light Gradient Boosting Machine (LGBM)
-
-
-#### Deep Learning
-
-1. Convolutional Neural Network (Part 1)
-2. Convolutional Neural Network (Part 2)
-
-
-### Data Set
-
-The dataset have images of the faces which have the expressions or 7 classes as angry, disgusted, fearful, happy, sad, surprised, neutral.The Images pixel size is 48 x 48 grey scaled. 
-
-<b>Train data</b> - (9328, 48, 48)
-
-<b>Public Test data</b> - (1136, 48, 48)
-    
-<b>Private Test data</b> - (1153, 48, 48)
+**Report your accuracy of clustering based on SSE, entropy and purity metrics.**
 
 <br/>
 
